@@ -1,0 +1,27 @@
+{
+  "name": "super-team-builder",
+  "version": "1.0.0",
+  "description": "A node program that dynamically generates an HTML page which contains information of the development team you build through the prompts.",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test":  "jest --verbose test/*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/beau4ta/super-team-builder.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/beau4ta/super-team-builder/issues"
+  },
+  "homepage": "https://github.com/beau4ta/super-team-builder#readme",
+  "dependencies": {
+    "inquirer": "8.0.0",
+    "jest": "^26.6.3"
+  }
+}
